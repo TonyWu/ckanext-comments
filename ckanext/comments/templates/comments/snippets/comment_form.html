@@ -6,7 +6,7 @@
 <form class="form comment-form">
   {{ h.csrf_input() }}
   <fieldset>
-    <legend>{{ _('Leave a comment') }}</legend>
+    <legend>{{ _('添加评论') }}</legend>
     {{ form.textarea('content', id='comment-content', label=_('Content')) }}
   </fieldset>
 
